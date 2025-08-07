@@ -34,8 +34,8 @@ public class CustomerController {
         return ResponseEntity.ok(customerService.updateCustomer(customer));
     }
 
-    @DeleteMapping
-    public ResponseEntity<Customer> deleteCustomer(@RequestBody Customer customer) {
-        return ResponseEntity.ok(customerService.deleteCustomer(customer));
-    }
+//    @DeleteMapping
+//    public ResponseEntity<Customer> deleteCustomer(@RequestBody Customer customer) {
+//        return ResponseEntity.ok(customerService.deleteCustomer(customer));
+//    }
 }
